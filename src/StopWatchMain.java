@@ -35,6 +35,7 @@ public class StopWatchMain {
 
         JButton startBtn = new JButton("Start");
         JButton stopBtn = new JButton("Stop");
+        stopBtn.setEnabled(false);
         JButton resetBtn = new JButton("Reset");
 
         frame.add(startBtn);
@@ -53,6 +54,8 @@ public class StopWatchMain {
             public void actionPerformed(ActionEvent e) {
                 logic.startWatch();
                 startBtn.setEnabled(false);
+                stopBtn.setEnabled(true);
+                startBtn.setText("Resume");
             }
         });
 
@@ -61,7 +64,7 @@ public class StopWatchMain {
             public void actionPerformed(ActionEvent e) {
                 logic.stopWatch();
                 startBtn.setEnabled(true);
-                startBtn.setText("Resume");
+                stopBtn.setEnabled(false);
             }
         });
 
@@ -71,6 +74,7 @@ public class StopWatchMain {
                 logic.resetWatch();
                 startBtn.setText("Start");
                 startBtn.setEnabled(true);
+                stopBtn.setEnabled(false);
             }
         });
 
