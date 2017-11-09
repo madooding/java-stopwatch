@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f759fa3-c4fe-41d5-897e-e06abf633e5b" name="Default" comment="Update logic">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StopWatch/StopWatchLogic.class" afterPath="$PROJECT_DIR$/out/production/StopWatch/StopWatchLogic.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StopWatch/StopWatchMain$1.class" afterPath="$PROJECT_DIR$/out/production/StopWatch/StopWatchMain$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StopWatch/StopWatchMain$2.class" afterPath="$PROJECT_DIR$/out/production/StopWatch/StopWatchMain$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StopWatch/StopWatchMain$3.class" afterPath="$PROJECT_DIR$/out/production/StopWatch/StopWatchMain$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/StopWatch/StopWatchMain.class" afterPath="$PROJECT_DIR$/out/production/StopWatch/StopWatchMain.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StopWatchLogic.java" afterPath="$PROJECT_DIR$/src/StopWatchLogic.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StopWatchMain.java" afterPath="$PROJECT_DIR$/src/StopWatchMain.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +24,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StopWatchMain.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StopWatchMain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StopWatchMain.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1110">
@@ -32,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StopWatchLogic.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StopWatchLogic.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/StopWatchLogic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="23" lean-forward="false" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+            <state relative-caret-position="-185">
+              <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -509,20 +513,28 @@
       <updated>1510149123875</updated>
       <workItem from="1510149132493" duration="572000" />
       <workItem from="1510149852814" duration="6169000" />
-      <workItem from="1510193203613" duration="555000" />
+      <workItem from="1510193203613" duration="669000" />
     </task>
+    <task id="LOCAL-00001" summary="Update logic">
+      <created>1510193791532</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1510193791532</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7296000" />
+    <option name="totallyTimeSpent" value="7410000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -600,14 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StopWatchLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="23" lean-forward="false" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/StopWatchMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1110">
@@ -615,6 +619,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StopWatchLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-185">
+          <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>

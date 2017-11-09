@@ -6,7 +6,6 @@ import javax.swing.*;
 public class StopWatchLogic extends Thread {
     private int minutes, seconds, ms;
     private JLabel minutesObj, secondsObj, msObj;
-    private boolean isCounting = false;
 
     public StopWatchLogic(JLabel minutesObj, JLabel secondsObj, JLabel msObj){
         this.minutesObj = minutesObj;
