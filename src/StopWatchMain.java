@@ -48,11 +48,12 @@ public class StopWatchMain {
         
         StopWatchLogic logic = new StopWatchLogic(minutes, seconds, ms);
         logic.start();
+        logic.suspend();
 
         startBtn.addActionListener(new ActionListener(){
             @Override
             public void actionPerformed(ActionEvent e) {
-                logic.startWatch();
+                logic.resume();
                 startBtn.setEnabled(false);
                 stopBtn.setEnabled(true);
                 startBtn.setText("Resume");
@@ -62,7 +63,7 @@ public class StopWatchMain {
         stopBtn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                logic.stopWatch();
+                logic.suspend();
                 startBtn.setEnabled(true);
                 stopBtn.setEnabled(false);
             }
@@ -71,7 +72,7 @@ public class StopWatchMain {
         resetBtn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                logic.resetWatch();
+                logic.reset();
                 startBtn.setText("Start");
                 startBtn.setEnabled(true);
                 stopBtn.setEnabled(false);

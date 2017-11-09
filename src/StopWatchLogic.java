@@ -19,36 +19,26 @@ public class StopWatchLogic extends Thread {
         while(true){
             try {
                 Thread.sleep(10);
-                if(this.isCounting) {
-                    this.ms++;
-                    if (this.ms == 100) {
-                        this.ms = 0;
-                        this.seconds++;
-                    }
-                    if (this.seconds == 60) {
-                        this.seconds = 0;
-                        this.minutes++;
-                    }
-                    this.msObj.setText("" + this.ms);
-                    this.secondsObj.setText("" + this.seconds);
-                    this.minutesObj.setText("" + this.minutes);
+                this.ms++;
+                if (this.ms == 100) {
+                    this.ms = 0;
+                    this.seconds++;
                 }
+                if (this.seconds == 60) {
+                    this.seconds = 0;
+                    this.minutes++;
+                }
+                this.msObj.setText("" + this.ms);
+                this.secondsObj.setText("" + this.seconds);
+                this.minutesObj.setText("" + this.minutes);
             } catch (InterruptedException e) {
                 e.printStackTrace();
         }
         }
     }
 
-    public void startWatch(){
-        this.isCounting = true;
-    }
-
-    public void stopWatch(){
-        this.isCounting = false;
-    }
-
-    public void resetWatch(){
-        this.stopWatch();
+    public void reset(){
+        this.suspend();
         this.minutes = 0;
         this.seconds = 0;
         this.ms = 0;
